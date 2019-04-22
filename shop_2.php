@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="Stylesheet" type="text/css" href="Stylesheets/main.css">
+    <link rel="Stylesheet" type="text/css" href="main.css">
     <link rel="Stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sacramento|Handlee">
     <title> Ala Maison </title>
 </head>

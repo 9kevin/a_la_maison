@@ -1,0 +1,975 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+#_browser_body {
+	min-height: 100%;
+}
+
+#_main {
+	overflow: auto;
+	padding-bottom: 200px;
+}
+
+/*Styling the upper part of the main body - Wellness & Spa Page */
+#_upper_main_home, #_upper_main_rooms, #_upper_main_wellness, #_upper_main_shop1, #_upper_main_shop2,
+#_upper_main_log, #_upper_main_contact, #_upper_main_res1, #_upper_main_res2 {
+	background-size: cover;
+}
+
+#_upper_main_home {
+	background-image: url(images/Home_Image.png);
+}
+
+#_upper_main_rooms {
+	background-image: url(images/Rooms_Image.png);
+}
+
+#_upper_main_wellness {
+	background-image: url(images/Wellness&Spa_image.png);
+}
+
+#_upper_main_shop1 {
+	background-image: url(images/Shop_main_img.png);
+}
+
+#_upper_main_shop2 {
+	background-image: url(images/Shop1.png);
+}
+
+#_upper_main_log {
+	background-image: url(images/login_img.png);
+}
+
+#_upper_main_contact {
+	background-image: url(images/contact_img.png);
+}
+
+#_upper_main_res1 {
+	background-image: url(images/Resturant_main_img1.png);
+}
+
+#_upper_main_res2 {
+	background-image: url(images/Resturant_main_img2.png);
+}
+
+#footer {
+	height: 200px;
+	position: relative;
+	margin-top: -200px;
+	margin-bottom: 2%;
+	clear: both;
+	border-top: #F7F7F7 solid 1px;
+	/*background-color: chocolate;*/
+	background-color: #FFFFFF;
+}
+
+#_browser_body #_main #header {
+	width: 100%;
+	height: 90px;
+	display: block;
+}
+
+#_browser_body #_main #header ._name_site {
+	height: 100%;
+	display: table;
+	margin: 0 auto;
+}
+
+/*Styling the position of the logo at the top*/
+#_browser_body #_main #header ._name_site #logo {
+	position: absolute;
+	margin-left: -6%;
+	margin-top: 2%;
+}
+
+#_browser_body #_main #header ._name_site #menu, #_browser_body #_main #header ._name_site #close,
+#_browser_body #_main #header ._name_site #menu {
+	position: absolute;
+	left: 95%;
+	top: 5%
+}
+
+#_browser_body #_main #header ._name_site .shop_icons {
+	position: absolute;
+	left: 90%;
+	top: 4%;
+}
+
+#_browser_body #_main #header ._name_site .shop_icons:last-child {
+	left: 85%;
+}
+
+#_browser_body #_main #header ._name_site img {
+
+}
+
+#_browser_body #_main #header ._name_site h3 {
+	position: absolute;
+	left: 89%;
+	top: 5%;
+	font-weight: 100;
+	color: white;
+	font-family: 'Tangerine', Serif;
+}
+
+#_browser_body #_main #header ._name_site h1 span {
+	font-family: 'Alegreya Sans', Serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+/* Main body */
+#_browser_body #_main #_main_body {
+	width: 100%;
+	height: 500px;
+	display: block;
+}
+
+#_browser_body #_main #_main_body h3 {
+	color: black;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+#_browser_body #_main #_main_body #h3_first_child {
+	padding-top: 5%;
+}
+
+#_browser_body #_main #_main_body p {
+	width: 50%;
+	height: 30%;
+	position: absolute;
+	top: 28%;
+	left: 25%;
+	color: white;
+	text-align: center;
+	font-family: 'Handlee', serif;
+	font-size: 24px;
+}
+
+/*Styling the Wellness & Spa paragraph*/
+#_browser_body #_main #_main_body #_spa_p {
+	top: 41%;
+}
+
+#_browser_body #_main #_arrival_info {
+	position: relative;
+	top: 80%;
+	width: 70%;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#_browser_body #_main #_arrival_info form {
+	width: 100%;
+	height: 100%;
+}
+
+#_browser_body #_main #_arrival_info form button {
+	width: 18%;
+	height: 22px;
+	position: relative;
+	top: 49%;
+	font-size: x-small;
+	background-color: black;
+	color: white;
+}
+
+#_browser_body #_main ._client_info {
+	width: 25%;
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 1% 0;
+}
+
+#_browser_body #_main ._client_info input, ._client_info h3 {
+	display: table;
+	margin: 0 auto;
+}
+
+#_browser_body #_main #_rooms_info {
+	position: relative;
+	left: 8px;
+	top: 22px;
+	height: 48%;
+}
+
+/*Styling the Wellness and Spa content
+***************************************/
+
+/*Styling the lower part of the main body - Wellness & Spa Page */
+#_lower_main {
+	width: 80%;
+	height: 720px;
+	position: relative;
+	left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#_lower_main .img_1, #_lower_main .img_2, #_lower_main .RestaurantI_img_1, #_lower_main .RestaurantI_img_2 {
+	width: 430px;
+	height: 47%;
+
+}
+
+#_lower_main .img_2 {
+	margin-top: 4%;
+	margin-left: 50%;
+}
+
+#_lower_main #spa_h1, #_lower_main #spa_h2, #_lower_main #shop_h1 {
+	position: relative;
+	left: 59%;
+	top: -100%;
+}
+
+#_lower_main #spa_h2 {
+	left: 5%;
+	top: -50%;
+}
+
+#_lower_main #spa_p1, #_lower_main #spa_p2, #_lower_main #shop_p1, #_lower_main #shop_p2 {
+	position: relative;
+	left: 59%;
+	top: -100%;
+	width: 40%;
+}
+
+#_lower_main #spa_p2 {
+	left: 5%;
+	top: -64%;
+}
+
+#_lower_main #spa_offers_1, #_lower_main #spa_offers_2 {
+	position: absolute;
+	top: 28%;
+	left: 59%;
+	width: 13%;
+	height: 5%;
+	background-color: white;
+}
+
+#_lower_main #spa_offers_2 {
+	top: 77%;
+	left: 5%;
+}
+
+#_lower_main #spa_appointment_1, #_lower_main #spa_appointment_2 {
+	position: absolute;
+	top: 28%;
+	left: 77%;
+	width: 20%;
+	height: 5%;
+	background-color: black;
+	color: white;
+}
+
+#_lower_main #spa_appointment_2 {
+	top: 77%;
+	left: 23%;
+}
+
+/*Styling the lower part of the main body - Shop 1 Page */
+#_lower_main #shop_h1, #_lower_main #shop_p1 {
+	width: 33%;
+}
+
+#_lower_main #shop_p1 {
+	position: absolute;
+	top: 9%;
+}
+
+#_lower_main #shop_p2 {
+	width: 40%;
+	left: 5%;
+	top: -52%;
+}
+
+#_lower_main #shop_btn_1, #_lower_main #shop_btn_2 {
+	position: absolute;
+	top: 21%;
+	left: 67%;
+	width: 15%;
+	height: 5%;
+	background-color: black;
+	color: white;
+}
+
+#_lower_main #shop_btn_2 {
+	top: 72%;
+	left: 15%;
+}
+
+/*Styling the body of shop 2 page*/
+#shop_left_section {
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 5%;
+	border: black solid 0.5px;
+}
+
+#shop_left_section #product_type, #shop_left_section #brand, #shop_left_section #color {
+	width: 80%;
+	height: 25px;
+	margin-left: 10%;
+}
+
+#shop_left_section #brand, #shop_left_section #color {
+	margin-bottom: 6%;
+}
+
+
+#shop_left_section #_types {
+	margin-top: 8%;
+	margin-left: 10%;
+	margin-bottom: 6%;
+	width: 80%;
+	border: black solid 0.5px;
+}
+
+#shop_left_section #_types a {
+	display: block;
+	margin-bottom: 5%;
+	font-size: smaller;
+}
+
+#shop_right_section {
+	float: right;
+	width: 70%;
+	margin-top: -29.2%;
+	margin-right: 3%;
+	border: black solid 0.5px;
+}
+
+#shop_right_section button {
+	position: relative;
+	left: 85%;
+	width: 15%;
+	height: 25px;
+	border: none;
+	border-width: 0px;
+}
+
+#shop_right_section h3{
+	margin-top: 21px;
+}
+
+#shop_right_section h5 {
+	position: relative;
+	left: 82%;
+	margin-top: -3%;
+	font-size: smaller;
+	font-weight: 100;
+}
+
+#shop_right_section img {
+	margin-bottom: 50px;
+	width: 177px;
+	height: 200px;
+	margin-right: 4%;
+	margin-top: 8%;
+	border-radius: 5px;
+}
+
+/*Styling the lower part of the main body - Restaurant I Page */
+#_lower_main .RestaurantI_img_1 {
+	position: absolute;
+	left: 50%;
+}
+
+#_lower_main .RestaurantI_img_2 {
+	position: absolute;
+	top: 50%;
+}
+
+#_lower_main #resI_h1_1 {
+	position: absolute;
+	left: 4%;
+}
+
+#_lower_main #resI_h1_2 {
+	position: absolute;
+	top: 51%;
+	left: 82%;
+}
+
+#_lower_main #resI_p1_1, #_lower_main #resI_p1_2 {
+	width: 40%;
+	position: absolute;
+	top: 6%;
+	left: 4%;
+}
+
+#_lower_main #resI_p1_2 {
+	top: 57%;
+	left: 61%;
+}
+
+#_lower_main #resI_btn_1, #_lower_main #resI_btn_2, #_lower_main #resII_btn_1 {
+	position: absolute;
+	top: 22%;
+	left: 4%;
+	width: 10%;
+	height: 5%;
+	color: white;
+	background-color: black;
+}
+
+#_lower_main #resI_btn_2 {
+	top: 74%;
+	left: 90%;
+}
+
+#mid_main_1, #mid_main_2 {
+	position: relative;
+	width: 80%;
+	height: 100px;
+	margin-top: 5%;
+	left: 10%;
+}
+
+#mid_main_1 #btn_1, #mid_main_1 #btn_2, #mid_main_2 #btn_3, #mid_main_2 #btn_4 {
+	width: 28%;
+	height: 80%;
+	position: relative;
+	left: 20%;
+	top: 9%;
+	color: white;
+	background-color: black;
+	font-size: medium;
+}
+
+#mid_main_1 #btn_2, #mid_main_2 #btn_3 {
+	color: black;
+	background-color: white;
+	left: 22.5%;
+}
+
+/*Styling the lower part of the main body - Restaurant II Page */
+#_lower_main .RestaurantII_img_1, #_lower_main .RestaurantII_img_2 {
+	position: absolute;
+	width: 50%;
+	height: 45%;
+}
+
+#_lower_main .RestaurantII_img_2 {
+	left: 50%;
+	top: 50%;
+}
+
+#mid_main_2 #btn_3 {
+	left: 20.5%;
+}
+
+#mid_main_2 #btn_4 {
+	left: 23.5%;
+}
+
+#_lower_main #resII_h1_1, #_lower_main #resII_h1_2 {
+	position: relative;
+	top: 0;
+	width: 23%;
+	left: 57%;
+}
+
+#_lower_main #resII_h1_2 {
+	top: 47%;
+	left: 5%;
+}
+
+#_lower_main #resII_p1_1, #_lower_main #resII_p1_2 {
+	width: 40%;
+	position: relative;
+	left: 57%;
+}
+
+#_lower_main #resII_p1_2 {
+	top: 38%;
+	left: 5%;
+}
+
+#_lower_main #resII_btn_1 {
+	top: 23%;
+	left: 57%;
+}
+
+
+/* Styling the footer */
+#footer img , #footer #_social_media1 img {
+	position: relative;
+	left: 2%;
+	margin-top: 4%;
+}
+
+#footer h5 {
+	position: absolute;
+	left: 4.5%;
+	top: 60%;
+}
+
+#footer #_social_media {
+	position: relative;
+	left: 4%;
+	top: 34%;
+	width: 9%;
+	height: 12%;
+}
+
+#footer #_social_media img, #footer #_social_media1 img  {
+	position: relative;
+	height: 100%;
+	display: table;
+	float: left;
+	padding-right: 10%;
+}
+
+#footer #_social_media #fb, #footer #_social_media1 #fb {
+	top: -4%;
+	height: 105%;
+}
+
+#footer #faqs {
+	height: 25%;
+	width: 10%;
+	position: relative;
+	left: 25%;
+	top: -34%;
+}
+
+#footer #faqs a:first-child {
+	left: -36px;
+}
+
+#footer #faqs a {
+	position: relative;
+	font-size: 80%;
+	font-weight: 100;
+}
+
+#footer #contact {
+	position: relative;
+	height: 73%;
+	display: table;
+	width: 16%;
+	top: -59%;
+	left: 49%;
+}
+
+#footer #contact h3 {
+	position: relative;
+	font-weight: 100;
+	font-size: 100%;
+}
+
+#footer #contact h4 {
+	position: relative;
+	font-weight: 100;
+	font-size: 70%;
+	margin-top: 3%;
+}
+
+#footer #subscribe {
+	position: relative;
+	display: table;
+	top: -134%;
+	left: 74%;
+	width: 20%;
+	height: 78%;
+}
+
+#footer #subscribe h3 {
+	position: relative;
+	top: -13px;
+	font-size: 101%;
+}
+
+#footer #subscribe p {
+	position: relative;
+	font-size: 70%;
+	font-weight: 100;
+	margin-top: -3%;
+}
+
+#footer #subscribe form {
+	display: table;
+	position: relative;
+	margin-top: 3%;
+}
+
+#footer #subscribe form input {
+	width: 198%;
+	height: 20px;
+	border: none;
+	border-bottom: black solid 1px;
+}
+
+#footer #subscribe button {
+	position: relative;
+	margin-top: 4%;
+	margin-left: 74%;
+	width: 24%;
+	height: 26px;
+	color: white;
+	background-color: black;
+	border-radius: 6px;
+}
+
+#footer #copyright {
+	position: relative;
+	top: -140%;
+	display: table;
+	margin: 0 auto;
+	font-size: smaller;
+	font-weight: 100;
+}
+
+/*Styling the footer of the frame*/
+#footer #hello {
+	position: absolute;
+	left: 44.5%;
+	top: 16%;
+	font-size: larger;
+	font-weight: 500;
+}
+
+#footer #_social_media1 {
+	position: relative;
+	left: 44.5%;
+	top: 34%;
+	width: 9%;
+	height: 12%;
+}
+
+/*Styling the rooms page
+*************************/
+#rooms_container {
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+#rooms_container #classic_rooms, #rooms_container #junior_rooms, #rooms_container #deluxe_rooms,
+#rooms_container #executive_rooms, #rooms_container #garden_rooms, #view_mo_rooms {
+	width: 100%;
+	height: 90px;
+	margin-top: 6%;
+	border: black solid 0.5px;
+}
+
+#rooms_container #classic_rooms button, #rooms_container #junior_rooms button,
+#rooms_container #deluxe_rooms button, #rooms_container #executive_rooms button,
+#rooms_container #garden_rooms button{
+	width: 7%;
+	height: 35%;
+	color: white;
+	background-color: black;
+	position: relative;
+	float: right;
+	margin-right: 4%;
+	margin-top: 0.5%;
+}
+
+#view_mo_rooms button {
+	width: 15%;
+	height: 45%;
+	font-size: larger;
+	font-weight: 600;
+	margin-left: 43%;
+	margin-top: 2%;
+	border: 0;
+}
+
+#view_mo_rooms {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+#rooms_container h3 {
+	position: relative;
+	top: 38%;
+	left: 8%;
+}
+
+/*Styling the log in form
+**************************/
+#log_form_cont {
+	width: 80%;
+	margin-top: 4%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+#log_form_cont p{
+	text-align: center;
+}
+
+#log_form_cont input {
+	width: 40%;
+	height: 35px;
+	margin-left: 30%;
+	font-size: 15px;
+	font-weight: 100;
+	padding-left: 4%;
+	border-radius: 4px;
+	margin-bottom: 2%;
+	border: #E3E3E3 solid 1.2px;
+}
+
+#log_form_cont button {
+	width: 20%;
+	height: 30px;
+	margin-top: 2%;
+	margin-left: 41%;
+	color: white;
+	background-color: black;
+	font-size: x-large;
+	font-weight: 300;
+}
+
+#log_form_cont h3 {
+	margin-top: 8%;
+	margin-left: 37%;
+	font-weight: 100;
+}
+
+/* Styling the rooms page for the form
+***********************************************/
+#rooms_container .room_type .room_type_img {
+	position: relative;
+	height: 100%;
+	width: 40%;
+	margin-left: 10%;
+}
+
+.room_type{
+	position: relative;
+}
+
+.ov{
+	position: absolute;
+	background: #f7f7f7;
+	width: 50%;
+	right: 0px;
+	height: 100%;
+	top: 0px;
+	opacity: 0;
+	transition: 300ms ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ov:hover{
+	opacity: 1;
+}
+
+.ov a{
+	font-size: 30px;
+	text-decoration: none;
+}
+#rooms_container .room_type {
+	margin-top: 10%;
+}
+
+#rooms_container .room_type:first-child {
+	margin-top: 10%;
+}
+
+#rooms_container .room_type h3 {
+	display: table;
+	position: relative;
+	float: right;
+	left: -25%;
+	font-weight: 600;
+	font-size: xx-large;
+	margin-right: 1%;
+}
+
+#rooms_container .room_type #exec_header {
+	left: -21%;
+}
+
+#rooms_container .room_type .room_icon {
+	position: relative;
+	left: 6%;
+	margin-bottom: 12%;
+}
+
+#rooms_container .room_type .bathtub_icon {
+	position: relative;
+	left: 14%;
+	margin-bottom: 12%;
+}
+
+#rooms_container .room_type .bed_icon {
+	position: relative;
+	left: 23%;
+	margin-bottom: 11.9%;
+}
+
+#rooms_container .room_type .amount {
+	position: relative;
+	float: right;
+	left: -1%;
+	margin-top: -14.8%;
+	font-size: x-large;
+	font-weight: 500;
+}
+
+#rooms_container .room_type h4, #rooms_container .room_type h5 {
+	display: table;
+	float: right;
+	position: relative;
+	left: -38%;
+	margin-top: -14.5%;
+	font-size: x-large;
+	font-weight: 100;
+}
+
+#rooms_container .room_type h5 {
+	left: -27%;
+}
+
+#rooms_container .room_type #king_size {
+	font-size: larger;
+	left: -21.3%;
+	margin-top: -14.3%;
+}
+
+#rooms_container .room_type .classic_deluxe {
+	font-size: larger;
+	left: -11.3%;
+	margin-top: -14.3%;
+}
+
+#rooms_container .room_type p {
+	position: relative;
+	float: right;
+	width: 40%;
+	font-size: larger;
+	margin-top: -22%;
+	margin-right: 4.2%;
+}
+
+	/* Styling the register item page for the form
+    ***********************************************/
+#_browser_body #_main #_contact_form {
+	width: 80%;
+	height: 600px;
+	margin-left: 10%;
+	margin-top: 8%;
+	margin-bottom: 25%;
+}
+
+#_browser_body #_main #_contact_form #text {
+	width: 40%;
+	height: 70%;
+	/*background-color: antiquewhite;*/
+}
+
+#_browser_body #_main #_contact_form #text h3 {
+	margin-left: 11%;
+	font-size: 19px;
+	font-weight: 100;
+}
+
+#_browser_body #_main #_contact_form #text p {
+	font-weight: 100;
+	font-size: 15px;
+	margin-left: 11%;
+	margin-top: 2%;
+}
+
+#_browser_body #_main #_contact_form form {
+	width: 50%;
+	height: 70.2%;
+	margin-left: 50%;
+	margin-top: -34.7%;
+}
+
+#_browser_body #_main #_contact_form #_shop_form {
+	position: relative;
+	width: 50%;
+	height: 70.2%;
+	left: 2%;
+	margin-top: 5%;
+}
+
+#_browser_body #_main #_contact_form form input, #_browser_body #_main #_contact_form form .form_input_1 {
+	width: 87%;
+	height: 8%;
+	font-size: 12px;
+	font-weight: 100;
+	padding-left: 4%;
+	border-radius: 4px;
+	margin-bottom: 3%;
+	border: #E3E3E3 solid 1.2px;
+}
+
+#_browser_body #_main #_contact_form form .form_input_1 {
+	height: 9%;
+	font-size: 15px;
+}
+
+#_browser_body #_main #_contact_form form input:last-child {
+	height: 53%;
+}
+
+#_browser_body #_main #_contact_form button {
+	width: 20%;
+	height: 9%;
+	background-color: black;
+	color: white;
+	margin-left: 40%;
+	margin-top: 20%;
+	margin-bottom: 2%;
+	border: none;
+    border-width: 0px;
+}
+
+#_browser_body #_main #_contact_form #upload_img {
+	width: 10%;
+	margin-left: 45%;
+	margin-top: 1%;
+}
+
+#_browser_body #_main #_contact_form #_shop_form {
+	display: table;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#_browser_body #_main #_contact_form h3 {
+	display: table;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 2%;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+/*#_browser_body #_main #_contact_form #_shop_form input {*/
+	/*width: 50%;*/
+	/*height: 70.2%;*/
+	/*margin-left: 27%;*/
+	/*margin-top: 2.3%;*/
+/*}*/
