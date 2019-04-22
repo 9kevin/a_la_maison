@@ -13,8 +13,8 @@
             <div id="_upper_main_shop1">
                 <header id="header">
                     <div class="_name_site">
-                        <a href="index.php"><img id="logo" src="Stylesheets/images/Logo.png" alt="logo"></a>
-                        <a href="frame.php"> <img id="menu" src="Stylesheets/images/menu.png" alt="hamburger_menu"> </a>
+                        <a href="index.php"><img id="logo" src="images/Logo.png" alt="logo"></a>
+                        <a href="frame.php"> <img id="menu" src="images/menu.png" alt="hamburger_menu"> </a>
                         <h3>Services</h3>
                     </div>
                 </header>
@@ -42,8 +42,8 @@
             </div>
 
             <div id="_lower_main">
-                <img class="img_1" src="Stylesheets/images/Shop1.png" alt="image">
-                <img class="img_2" src="Stylesheets/images/Shop2.png" alt="image">
+                <img class="img_1" src="images/Shop1.png" alt="image">
+                <img class="img_2" src="images/Shop2.png" alt="image">
 
                 <h3 id="shop_h1"> Treat yourself to some amazing products that are available at best prices </h3>
 
@@ -61,12 +61,12 @@
     </div>
 
     <footer id="footer">
-        <a href="index.php"><img src="Stylesheets/images/Logo1.png" alt="logo"></a>
+        <a href="index.php"><img src="images/Logo1.png" alt="logo"></a>
         <h5>Say hello to us</h5>
         <div id="_social_media">
-            <img src="Stylesheets/images/facebook_icon.png" alt="facebook" id="fb">
-            <img src="Stylesheets/images/instagram_icon.png" alt="instagram">
-            <img src="Stylesheets/images/twitter_icon.png" alt="twitter">
+            <img src="images/facebook_icon.png" alt="facebook" id="fb">
+            <img src="images/instagram_icon.png" alt="instagram">
+            <img src="images/twitter_icon.png" alt="twitter">
         </div>
         <div id="faqs">
             <a> <h3>FAQs</h3></a>

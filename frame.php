@@ -12,8 +12,8 @@
             <div id="_upper_main_frame" class="Home">
                 <header id="header">
                     <div class="_name_site">
-                        <a href="index.php"><img id="logo" src="Stylesheets/images/Logo1.png" alt="logo"></a>
-                        <a> <img id="close" src="Stylesheets/images/close.png" alt="hamburger_menu"> </a>
+                        <a href="index.php"><img id="logo" src="images/Logo1.png" alt="logo"></a>
+                        <a> <img id="close" src="images/close.png" alt="hamburger_menu"> </a>
                     </div>
                 </header>
 
@@ -31,9 +31,9 @@
     <footer id="footer">
         <h5 id="hello">Say hello to us</h5>
         <div id="_social_media1">
-            <img src="Stylesheets/images/facebook_icon.png" alt="facebook" id="fb">
-            <img src="Stylesheets/images/instagram_icon.png" alt="instagram">
-            <img src="Stylesheets/images/twitter_icon.png" alt="twitter">
+            <img src="images/facebook_icon.png" alt="facebook" id="fb">
+            <img src="images/instagram_icon.png" alt="instagram">
+            <img src="images/twitter_icon.png" alt="twitter">
         </div>
     </footer>
 

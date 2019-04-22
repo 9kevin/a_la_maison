@@ -12,10 +12,10 @@
             <div id="_upper_main_shop2">
                 <header id="header">
                     <div class="_name_site">
-                        <a href="index.php"><img id="logo" src="Stylesheets/images/Logo.png" alt="logo"></a>
-                        <a href="frame.php"> <img id="menu" src="Stylesheets/images/menu2.png" alt="hamburger_menu"> </a>
-                        <img class="shop_icons" src="Stylesheets/images/add_cart.png" alt="add_cart">
-                        <img class="shop_icons" src="Stylesheets/images/user_icon.png" alt="user_icon">
+                        <a href="index.php"><img id="logo" src="images/Logo.png" alt="logo"></a>
+                        <a href="frame.php"> <img id="menu" src="images/menu2.png" alt="hamburger_menu"> </a>
+                        <img class="shop_icons" src="images/add_cart.png" alt="add_cart">
+                        <img class="shop_icons" src="images/user_icon.png" alt="user_icon">
                     </div>
                 </header>
 
@@ -74,12 +74,12 @@
     </div>
 
     <footer id="footer">
-        <a href="index.php"><img src="Stylesheets/images/Logo1.png" alt="logo"></a>
+        <a href="index.php"><img src="images/Logo1.png" alt="logo"></a>
         <h5>Say hello to us</h5>
         <div id="_social_media">
-            <img src="Stylesheets/images/facebook_icon.png" alt="facebook" id="fb">
-            <img src="Stylesheets/images/instagram_icon.png" alt="instagram">
-            <img src="Stylesheets/images/twitter_icon.png" alt="twitter">
+            <img src="images/facebook_icon.png" alt="facebook" id="fb">
+            <img src="images/instagram_icon.png" alt="instagram">
+            <img src="images/twitter_icon.png" alt="twitter">
         </div>
         <div id="faqs">
             <a> <h3>FAQs</h3></a>

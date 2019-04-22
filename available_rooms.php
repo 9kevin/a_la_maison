@@ -13,8 +13,8 @@
             <div id="_upper_main_rooms">
                 <header id="header">
                     <div class="_name_site">
-                        <a href="index.php"><img id="logo" src="Stylesheets/images/Logo.png" alt="logo"></a>
-                        <a href="frame.php"> <img id="menu" src="Stylesheets/images/menu.png" alt="hamburger_menu"> </a>
+                        <a href="index.php"><img id="logo" src="images/Logo.png" alt="logo"></a>
+                        <a href="frame.php"> <img id="menu" src="images/menu.png" alt="hamburger_menu"> </a>
                         <h3>Services</h3>
                     </div>
                 </header>
@@ -45,13 +45,13 @@
             <div id="rooms_container">
 
                 <div class="room_type">
-                    <img class="room_type_img" src="Stylesheets/images/classc_img.png" alt="image">
+                    <img class="room_type_img" src="images/classc_img.png" alt="image">
                     <h3> Classic Room </h3>
                     <p> Enjoy our basic room for all kinds of clients with a bathroom, one master bedroom, and room
                         service</p>
-                    <img class="room_icon" src="Stylesheets/images/room_icon.png" alt="room_icon_img">
-                    <img class="bathtub_icon" src="Stylesheets/images/bathtub_icon.png" alt="bathtub_icon_img">
-                    <img class="bed_icon" src="Stylesheets/images/bed_icon.png" alt="bed_icon_img">
+                    <img class="room_icon" src="images/room_icon.png" alt="room_icon_img">
+                    <img class="bathtub_icon" src="images/bathtub_icon.png" alt="bathtub_icon_img">
+                    <img class="bed_icon" src="images/bed_icon.png" alt="bed_icon_img">
                     <h3 class="amount"> $100/D </h3>
                     <h4> 3 </h4>
                     <h5> 1 </h5>
@@ -61,13 +61,13 @@
                     </div>
                 </div>
                 <div class="room_type">
-                    <img class="room_type_img" src="Stylesheets/images/deluxe_img.png" alt="image">
+                    <img class="room_type_img" src="images/deluxe_img.png" alt="image">
                     <h3> Deluxe Room </h3>
                     <p> Enjoy our basic room for all kinds of clients with a bathroom, one master bedroom, and room
                         service</p>
-                    <img class="room_icon" src="Stylesheets/images/room_icon.png" alt="room_icon_img">
-                    <img class="bathtub_icon" src="Stylesheets/images/bathtub_icon.png" alt="bathtub_icon_img">
-                    <img class="bed_icon" src="Stylesheets/images/bed_icon.png" alt="bed_icon_img">
+                    <img class="room_icon" src="images/room_icon.png" alt="room_icon_img">
+                    <img class="bathtub_icon" src="images/bathtub_icon.png" alt="bathtub_icon_img">
+                    <img class="bed_icon" src="images/bed_icon.png" alt="bed_icon_img">
                     <h3 class="amount"> $150/D </h3>
                     <h4> 3 </h4>
                     <h5> 1 </h5>
@@ -77,13 +77,13 @@
                     </div>
                 </div>
                 <div class="room_type">
-                    <img class="room_type_img" src="Stylesheets/images/exec_img.png" alt="image">
+                    <img class="room_type_img" src="images/exec_img.png" alt="image">
                     <h3 id="exec_header"> Executive Room </h3>
                     <p> Feel like treating yourself to a VIP experience, then this is for you. Enjoy all classic and
                         Deluxe offers + more.</p>
-                    <img class="room_icon" src="Stylesheets/images/room_icon.png" alt="room_icon_img">
-                    <img class="bathtub_icon" src="Stylesheets/images/bed_icon.png" alt="bathtub_icon_img">
-                    <img class="bed_icon" src="Stylesheets/images/vip_img.png" alt="bed_icon_img">
+                    <img class="room_icon" src="images/room_icon.png" alt="room_icon_img">
+                    <img class="bathtub_icon" src="images/bed_icon.png" alt="bathtub_icon_img">
+                    <img class="bed_icon" src="images/vip_img.png" alt="bed_icon_img">
                     <h3 class="amount"> $200/D </h3>
                     <h4> 3 </h4>
                     <h5 id="king_size"> King Size </h5>
@@ -98,12 +98,12 @@
     </div>
 
     <footer id="footer">
-        <a href="index.php"><img src="Stylesheets/images/Logo1.png" alt="logo"></a>
+        <a href="index.php"><img src="images/Logo1.png" alt="logo"></a>
         <h5>Say hello to us</h5>
         <div id="_social_media">
-            <img src="Stylesheets/images/facebook_icon.png" alt="facebook" id="fb">
-            <img src="Stylesheets/images/instagram_icon.png" alt="instagram">
-            <img src="Stylesheets/images/twitter_icon.png" alt="twitter">
+            <img src="images/facebook_icon.png" alt="facebook" id="fb">
+            <img src="images/instagram_icon.png" alt="instagram">
+            <img src="images/twitter_icon.png" alt="twitter">
         </div>
         <div id="faqs">
             <a> <h3>FAQs</h3></a>

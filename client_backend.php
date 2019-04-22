@@ -22,8 +22,8 @@
 				die('Connect Error('. mysqli_connect_error().')' .mysqli_connect_error() );
 			}
 			else {
-				$SELECT = "SELECT Email From Client Where Email = ?";
-				$INSERT = "INSERT Into Client (Name, Email, Arrival_Date, Departure_Date) Values (?, ?, ?, ?)";
+				$SELECT = "SELECT Email From client Where Email = ?";
+				$INSERT = "INSERT Into client (Name, Email, Arrival_Date, Departure_Date) Values (?, ?, ?, ?)";
 
 				$stmt = $conn->prepare($SELECT);
 				$stmt->bind_param("s", $email);
